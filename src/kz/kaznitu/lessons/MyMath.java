@@ -21,6 +21,7 @@ public class MyMath {
             return b ;
         else
             return a ;
+
     }
     public static int max3(int a, int b, int c){
         int max = max(a,b) ;
@@ -30,4 +31,7 @@ public class MyMath {
         int min = min(a, b);
         return min(min, c);
     }
+public static boolean isOdd(int a){
+        return (a%2 !=0);
+}
 }
